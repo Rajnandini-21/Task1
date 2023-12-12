@@ -1,0 +1,112 @@
+*{
+    margin:0%;
+    padding: 0%;
+    
+ }
+ .main{
+     width:100%;
+     background: url(pic/d.jpeg);
+     background-position: center;
+     background-size: cover;
+     height:100vh;
+     position: relative;
+     font-family: 'Times New Roman', Times, serif;
+
+ }
+.navbar
+ {
+     display: flex;
+     width: 86%;
+     margin:auto;
+    padding:15px 0;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .navbar logo{
+     width:140;
+     cursor:pointer;
+     margin-top: -5%;
+     margin-left: -1%;
+ }
+ ul{
+    margin-top:0%;
+    
+ }
+ ul li{
+    list-style: none;
+    display: inline-block;
+    padding:10px 16px;
+ }
+ ul li a{
+    font-size:16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:yellow;
+    margin-top: -8;
+    transition: .4s ease;
+
+}
+ 
+
+  ul li a:hover{
+     color: aqua;
+ }
+ .detel
+ {
+     margin-left :30%;
+     margin-right: 8%;
+
+     
+ }
+ .detel h1{
+     font-size: 55px;
+     color: violet;
+     
+     
+ }
+ .detel h3{
+       font-size:20px;
+       letter-spacing: 1px;
+       line-height: 55px;
+       font-style: italic;
+       color: whitesmoke;
+ }
+.detel span{
+     color:rgb(216, 13, 125);
+     
+ }
+ .detel a{
+    background: violet;
+     padding: 10px 20px ;
+     text-decoration: none;
+     font-weight: bold;
+     color: rgb(240, 232, 232);
+     display: inline-block;
+     margin: 30px 0;
+     border-radius: 5px;
+     transition: .4s ease;
+ }
+ .detel a:hover
+ {
+    background: rgb(rgb(255, 12, 12), green, blue);
+ }
+ .image
+ {
+     width: 30%;
+     height: 70%;
+     position: absolute;
+     bottom: 0;
+     right:30px;
+ }
+ .image img
+ {
+    position:absolute;
+    height:100%;
+    right:100%;
+    transform: translate(-50%);
+    bottom:0;
+    transition: left 2s ease;
+ }
+ .image:hover.girl1{
+       left: 45%;
+ }
